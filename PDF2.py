@@ -21,5 +21,6 @@ df = pd.DataFrame([x.split(',') for x in text.split('\n')])
 # Salvar o dataframe como um arquivo CSV
 df.to_csv('Guia do IRRF.csv', index=False)
 
+
 # Adicionar um print statement
 print('Arquivo CSV gerado com sucesso!')
